@@ -1,0 +1,49 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-color: #1c1c2b;
+
+  padding: 14px;
+}
+
+.website-logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.website-logo {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.main-heading {
+  color: #2cc6c6;
+}
+
+.heading {
+  margin: 4px;
+  color: #cbd5e1;
+  font-size: 20px;
+}
+
+.failure {
+  width: 100%;
+}
+.fail {
+  color: white;
+  font-size: 20px;
+}
+@media screen and (min-width: 768px) {
+  .bg-container {
+    padding: 20px 20px 20px 60px;
+  }
+  .heading {
+    font-size: 26px;
+  }
+  .failure {
+    width: 50%;
+  }
+  .fail {
+    font-size: 26px;
+  }
+}

@@ -1,0 +1,13 @@
+/* Write your CSS here */
+
+.chart {
+  background-color: #6c757d;
+  margin: 20px 20px 20px 0px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.custom-legend .recharts-legend-item text {
+  font-size: 16px; /* Adjust this size as needed */
+  font-weight: bold;
+}
